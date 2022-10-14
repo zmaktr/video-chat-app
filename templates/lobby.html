@@ -1,4 +1,11 @@
 {% extends 'base.html' %} {% load static %} {% block content %}
-<img src="{% static 'images/chat-icon.png'%}" />
-<h2>Looby</h2>
+<main>
+  <section id="form-container">
+    <img id="logo" src="{% static 'images/chat-icon.png'%}" />
+    <div>
+      <h1>Welcome to myChat</h1>
+      <p>A group video calling application</p>
+    </div>
+  </section>
+</main>
 {% endblock content %}
