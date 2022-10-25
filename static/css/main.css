@@ -50,3 +50,27 @@ body {
     height: 100%;
     width: 100%
 }
+
+/* ---Room Styling | Controls---  */
+
+#controls-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 1rem;
+    position: fixed;
+    bottom: 20px;
+}
+
+.control-icon {
+    height: 20px;
+    width: 20px;
+    box-shadow: var(--shadow);
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#leave-btn {
+    background-color: red;
+}
